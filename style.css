@@ -1,0 +1,80 @@
+body {
+  font-family: "futura";
+  font-weight: 200;
+  background-color: #F3F4F4;
+  color: #586066;
+  text-align: center;
+  padding: 5px;
+  line-height:20px;
+}
+
+h1, h2, h3 {
+  font-family: "Quicksand";
+  color: #000b5e;
+}
+
+h2 {
+  font-weight:100;
+}
+
+#img-circle{
+  border-radius: 10%;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  padding: 0px;
+  size: 50px;
+}
+
+p {
+margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 50%;
+  margin: 25px auto;
+  border-radius:10px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000b5e;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+
+a:hover {
+color: #ffc2e9;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 80%;
+  }
+}
